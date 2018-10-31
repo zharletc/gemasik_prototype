@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid" style="padding:0;">
+        <div class="row">
+           <div class="col-md-12">
+                <div class="box-dashboard hidden-xs">
+                    <div class="navbar">
+                        <div class="button-nav" onclick="window.location.replace('../')">
+                            <p>Beranda</p>
+                        </div>
+                        <div class="button-nav" id="active">
+                            <p>Tambah Data</p>
+                        </div>
+                        <div class="button-nav" onclick="window.location.replace('../lihat_data')">
+                            <p>Lihat Data</p>
+                        </div>
+                       <div class="button-nav" onclick="alert('Comming Soon')"">
+                            <p>Pengaturan</p>
+                        </div>
+                        <div class="white-box"></div>
+                    </div>
+                    <center>
+                        <div class="frame" style="position:absolute; left:0px; top: 280px; width: 100%;">
+                            <div id="preload">
+                                <div id="logo" style="font-size: 20px;">
+                                    <span style="color:darkturquoise;">Loading</span>
+                                    <span style="color:darkturquoise;" id="persen"></span>
+                                </div>
+                                <div class="loader-frame">
+                                    <div class="loader1" id="loader1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                    <div id="target">&nbsp;</div>
+                </div>
+            </div>
+            <center>
+                <div class="col-offest-xs-3 hidden-lg hidden-md hidden-sm">
+                    <div class="mbox-autentikasi" style="padding-left: 20px; padding-right: 20px;">
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>

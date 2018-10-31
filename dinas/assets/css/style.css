@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background:white!important;
+    padding-top:8vh;
+}
+
+.box-dashboard {
+    height: 560px;
+    width: 1200px;
+    margin: auto;
+    background-color: #eeefef;
+    padding-right: 25px;
+    box-shadow: 0px 0px 50px 10px #363637;
+}
+
+.box-login {
+    height: 380px;
+    width: 600px;
+    margin:auto;
+    background-color: #fafbfd;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 20px 5px #363637; 
+}
+
+.box-autentikasi {
+    height: 440px;
+    width: 600px;
+    margin: auto;
+    background-color: #fafbfd;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 20px 5px #363637;
+}
+
+.mbox-login {
+    height: 400px;
+    width: 320px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #fafbfd;
+    box-shadow: 0px 0px 20px 5px #363637;
+}
+
+.mbox-autentikasi {
+    height: 450px;
+    width: 320px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #fafbfd;
+    box-shadow: 0px 0px 20px 10px #363637;
+}
+
+.box-login>h2,
+.box-autentikasi>h2,
+.box-autentikasi>h3 {
+    font-family: 'Segoe UI Light' , sans-serif;
+    font-weight: bold;
+    color: #2e5882;
+    margin: 0;
+}
+
+.mbox-login>h2,
+.mbox-autentikasi>h3,
+.mbox-autentikasi>h2 {
+    font-family: 'Segoe UI Light', sans-serif;
+    color: #2e5882;
+    margin: 0;
+}
+
+.border {
+    border-style: solid;
+    border-right: 20px solid;
+    border-left: 20px solid;
+    border-top: 35px solid;
+    border-bottom: 35px solid;
+    border-color: white;
+    width: cover;
+    height: 100vh;
+}
+
+
+
+.white-box {
+    background-color: white;
+    width: 405px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+}
+.navbar>div {
+    display: inline-block;
+    font-size: 20px;
+    background-color: white;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.button-nav {
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    margin-right: -4px;
+    cursor: pointer;
+}
+
+.button-nav>p {
+    text-align: center;
+    border: 0px;
+    font-family: 'Segoe UI';
+}
+
+.content-beranda , .content-tambahdata,
+.content-lihatdata {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content-tambahdata>div , .content-tambahdata>div>p,
+.content-lihatdata>div , .content-lihatdata>div>p{
+	 font-family: 'Segoe UI Light';
+     font-weight: bold;
+	 color:#005387;
+}
+.data-nfc>p{
+	 font-family: 'Segoe UI Light' , sans-serif;
+	 color:black;
+	 margin-bottom: 20px;
+	 margin-top: 30px;
+	 font-size: 20px;
+}
+.card{
+    background-color: silver;
+    width:100px;
+    height:100px;
+    padding-top: 30px;
+    position: relative;
+    display: inline-block;
+    margin-left: 40px; 
+}
+.data-sim>p{
+     font-family: 'Segoe UI Light' , sans-serif;
+     color:black;
+     margin-bottom: 5px;
+     margin-top: 20px;
+     font-size: 20px;
+}
+.title-box{
+    font-family: 'Segoe UI Light' , sans-serif;
+}
+.jenis-data{
+	margin-top: 80px;
+}
+.jenis-data>h2>div>a{
+    font-family: 'Segoe UI Light' , sans-serif;
+    font-weight: bold;
+}
+
+.box1-beranda {
+    width: 330px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.box2-beranda {
+    width: 200px;
+    height: 150px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.berita-beranda {
+    width: 430px;
+    height: 310px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.notify-beranda {
+    margin-left: 240px;
+    width: 320px;
+    height: 470px;
+    margin-bottom: 10px;
+}
+
+#bubblebox {
+    width: 650px;
+    height: 250px;
+    margin: 50px auto;
+    border: 1px solid #AAA;
+}
+
+#bubbles {
+    width: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#bubbles>div {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 24px 10px 0px 10px;
+    background: rgba(0, 0, 0, .1);
+    text-align: center;
+    border: 2px solid #999;
+    border-radius: 100%;
+    font-size: 17px;
+    text-decoration: none;
+    transition: background 0.3s linear 0s;
+    cursor: pointer;
+}
+
+#bubblecontent {
+    margin: 0px auto;
+    transition: opacity 0.3s linear 0s;
+    font-family: Arial;
+}
+
+#bubblecontent>h2 {
+    text-align: center;
+    color: #7EA800;
+}
+
+#bubblecontent>p {
+    font-size: 17px;
+    line-height: 1.5em;
+    padding: 20px 50px;
+    color: #777;
+}
+
+
+#active,
+.button-nav:hover {
+    color: white;
+    background-color: #416993;
+    
+}
+
+#nik {
+    width: 530px;
+    height: 40px;
+}
+
+#submit {
+    font-family: 'Segoe UI Light';
+    width: 530px;
+    height: 40px;
+    background-color: #2e5882;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+  
+}
+
+/*Loading*/
+.preload{
+  background: #333;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  z-index:1;
+}
+.logo{
+  width: 300px;
+  height: 70px;
+  margin: 150px auto 50px auto;
+  font-size: 50px;
+  text-shadow: -1px 2px 2px #000;
+  text-align: center;
+  color: azure;
+}
+.loader-frame{
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  position: relative;
+}
+.loader1 , .loader{
+  position: absolute;
+  border: 5px solid transparent;
+  border-radius: 50%;
+
+}
+.loader1{
+  width: 70px;
+  height: 70px;
+  border-top: 5px solid darkturquoise;
+  border-bottom: 5px solid darkturquoise;
+  animation: clockwisespin 1s linear 100;
+}
+
+
+@keyframes clockwisespin{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+/*Screen Media*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    body{
+
+        padding-top: 20%;
+     /* Moz-browsers */
+        padding-right: 100px;
+        zoom: 70%; /* Webkit browsers */
+        overflow: hidden;
+    }
+}
